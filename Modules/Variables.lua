@@ -8,6 +8,7 @@ return {
 	Hwid = gethwid(),
 	ClientId = game:GetService("RbxAnalyticsService"):GetClientId(),
 	Name = game.Players.LocalPlayer.Name,
+	Display = game.Players.LocalPlayer.DisplayName,
 	UserId = game.Players.LocalPlayer.UserId,
 	PlaceId = game.PlaceId,
 	JobId = game.JobId,
@@ -15,4 +16,5 @@ return {
 	Executor = identifyexecutor(),
 	Platform = UserInputService:GetPlatform(),
 	GameName = GamoName.Name,
+	Version = "1.2",
 }
